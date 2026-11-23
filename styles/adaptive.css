@@ -92,6 +92,11 @@
 }
 
 @media (max-width: 767px) {
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   section {
     padding: var(--space-xxl) 0
   }
