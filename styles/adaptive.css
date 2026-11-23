@@ -151,7 +151,7 @@
     gap: var(--space-sm) var(--space-md);
   }
 
-  .footer-info__grid {
+  .buyer-info__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -161,16 +161,16 @@
 }
 
 @media (max-width: 600px) {
-  .footer-info {
+  .buyer-info__panel {
     padding: var(--space-md);
   }
 
-  .footer-info__grid {
+  .buyer-info__grid {
     grid-template-columns: 1fr;
     gap: var(--space-md);
   }
 
-  .footer-warning {
+  .buyer-info__warning {
     font-size: 0.8rem;
   }
 
