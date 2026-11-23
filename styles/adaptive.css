@@ -95,6 +95,12 @@
   .footer-bottom {
     flex-direction: column;
     align-items: flex-start;
+    gap: var(--space-md);
+  }
+
+  .footer-bottom__details {
+    align-items: flex-start;
+    text-align: left;
   }
 
   section {
@@ -140,12 +146,6 @@
   .catalog,
   .contacts{
     padding-bottom: 0;
-  }
-
-  .footer-main {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--space-xs);
   }
 
   .footer-links {
