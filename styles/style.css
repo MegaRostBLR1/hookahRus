@@ -466,6 +466,13 @@ section {
   gap: var(--space-md)
 }
 
+.price-disclaimer {
+  margin-top: var(--space-md);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: left;
+}
+
 .catalog-message__loading::after {
   content: ".";
   display: inline-block;
