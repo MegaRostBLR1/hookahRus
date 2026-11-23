@@ -156,6 +156,20 @@
 }
 
 @media (max-width: 600px) {
+  .footer-info {
+    padding: var(--space-md);
+  }
+
+  .footer-info__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  .footer-warning {
+    align-items: flex-start;
+    font-size: 0.8rem;
+  }
+
   .hero-content h1 {
     font-size: 2rem
   }
