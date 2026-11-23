@@ -891,6 +891,11 @@ section {
 }
 
 .footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-md);
   padding-top: var(--space-sm);
   color: var(--text-muted);
   font-size: 0.8rem;
