@@ -834,7 +834,9 @@ section {
 .footer-warning {
   display: flex;
   align-items: center;
-  min-height: 48px;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  min-height: 64px;
   margin-bottom: var(--space-md);
   padding: 10px 16px;
   border-left: 3px solid var(--accent);
@@ -845,6 +847,10 @@ section {
   font-weight: 800;
   letter-spacing: 0.025em;
   line-height: 1.5;
+}
+
+.footer-warning strong {
+  min-width: 0;
 }
 
 .footer-info__grid {
